@@ -34,21 +34,29 @@ $('.ab').hover(function(){
 
 });
 
-$('.ab').enter(function(){
+$('.ab').mouseenter(function(){
  $('.f').show(1000); 
 });
 
 $('.ab').click(function(){
- $('.gg').hide(10000);
+ $('.gg').hide(1000);
 });
 
-$('.fv').mouseenter(function(){
+$('.fv').mousedown(function(){
  $('.hhh').hide(1000);
 
 });
 
-$('.fv').mouseenter(function(){
+$('.fv').mouseover(function(){
  $('.hhh').show(1000); 
+});
+
+$('.fv').dblclick(function(){
+ $('.hhh').fadeIn(1000); 
+});
+
+$('.fv').mouseover(function(){
+ $('.hhh').fadeOut(1000); 
 });
 
 // $('.fv').click(function(){
