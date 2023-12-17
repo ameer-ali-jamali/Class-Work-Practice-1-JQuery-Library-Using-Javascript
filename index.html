@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            p {
+                font-size: xx-large;
+                background-color: blueviolet;
+                color: black;
+            }
+
+            button {
+                font-size: larger;
+                color: aqua;
+                background-color: black;
+                width: 200px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p class="ggg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis facere, obcaecati incidunt
+            est earum eligendi fugiat repudiandae? Minima aperiam pariatur quos non sapiente quaerat repudiandae,
+            impedit, ipsum ratione veniam cumque.</p>
+
+        <p class="f">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis facere, obcaecati incidunt est
+            earum eligendi fugiat repudiandae? Minima aperiam pariatur quos non sapiente quaerat repudiandae, impedit,
+            ipsum ratione veniam cumque.</p>
+
+        <p class="gg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis facere, obcaecati incidunt est
+            earum eligendi fugiat repudiandae? Minima aperiam pariatur quos non sapiente quaerat repudiandae, impedit,
+            ipsum ratione veniam cumque.</p>
+        <button class="ab">click</button>
+
+        <script>
+            $(document).ready(function () {
+                $('.ab').hover(function () {
+                    $('.ggg').hide(1000);
+                });
+
+                $('.ab').mouseenter(function () {
+                    $('.f').show(1000);
+                });
+
+                $('.ab').click(function () {
+                    $('.gg').hide(1000);
+                });
+
+                $('.fv').mousedown(function () {
+                    $('.hhh').hide(1000);
+                });
+
+                $('.fv').mouseover(function () {
+                    $('.hhh').show(1000);
+                });
+
+                $('.fv').dblclick(function () {
+                    $('.hhh').fadeIn(1000);
+                });
+
+                $('.fv').mouseover(function () {
+                    $('.hhh').fadeOut(1000);
+                });
+
+
+            });
+        </script>
+    </body>
+
+</html>
