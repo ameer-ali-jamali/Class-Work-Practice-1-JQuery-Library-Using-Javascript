@@ -15,3 +15,7 @@ Welcome to our first jQuery class! In today's session, I gained valuable insight
 ## Next Steps
 
 Excited about the potential of jQuery, I look forward to exploring more advanced concepts and applying them to create dynamic and interactive web applications.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
